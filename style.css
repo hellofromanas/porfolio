@@ -29,12 +29,17 @@ body {
   padding: 60px 0;
 }
 
+/* Add this to your <style> section */
 .profile {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #38bdf8;
-  margin-bottom: 20px;
+    width: 280px;               /* Size of the circle */
+    height: 280px;              /* Must be identical to width */
+    border-radius: 50%;         /* Makes it a perfect circle */
+    object-fit: cover;          /* Prevents the 'squashed' look */
+    object-position: center 20%; /* Shifts the crop up slightly to keep your face centered */
+    border: 5px solid #D4AF37;  /* A solid gold border to match your Islamic theme */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3); /* Adds depth */
+    display: block;
+    margin: 20px auto;          /* Centers the image on the page */
 }
 
 .tag {
@@ -157,4 +162,5 @@ input:focus, textarea:focus {
 }
 
 #form-status.success { color: #4ade80; }
+
 #form-status.error { color: #f87171; }
