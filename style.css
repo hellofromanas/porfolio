@@ -30,7 +30,8 @@ body {
 }
 
 /* Add this to your <style> section */
-.profile {
+/* Add this to your <style> section */
+.profile-img {
     width: 280px;               /* Size of the circle */
     height: 280px;              /* Must be identical to width */
     border-radius: 50%;         /* Makes it a perfect circle */
@@ -164,3 +165,4 @@ input:focus, textarea:focus {
 #form-status.success { color: #4ade80; }
 
 #form-status.error { color: #f87171; }
+
